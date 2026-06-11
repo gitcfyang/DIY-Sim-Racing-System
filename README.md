@@ -57,11 +57,12 @@
 
 | 子部件 | 参考项目 | 关系 |
 |---|---|---|
-| **SimPedal** | [dmcke5/SimPedals](https://github.com/dmcke5/SimPedals) | 机械结构基于此项目，固件和部分外壳做了修改 |
+| **SimPedal** | [dmcke5/SimPedals](https://github.com/dmcke5/SimPedals)（CERN-OHL-S-2.0） | 机械结构基于此项目，固件和部分外壳做了修改 |
 | **SimBase** | [FFBeast Wheel](https://github.com/ffbeast-dev/ffbeast-wheel) | 直接使用其 ODrive 力反馈固件和 Qt6 配置工具 |
 | **SimBase** | [ODrive](https://github.com/odriverobotics/ODrive) | 使用其硬件平台和底层驱动 |
-| **SimWheeling** | [Thingiverse #5173143](https://www.thingiverse.com/thing:5173143) | 机械结构参考此设计，主控方案和电路做了较大改动 |
+| **SimWheeling** | 阿斯顿·马丁 Vantage GT3 赛车方向盘 | 外形布局灵感来源，机械模型从零独立建模 |
 | **SimWheeling** | [Adafruit CircuitPython Libraries](https://github.com/adafruit) | 使用 MCP230xx 和 Bus Device 库 |
+| **SimWheeling** | [Thingiverse #5173143](https://www.thingiverse.com/thing:5173143)（Turn Vantage GTE） | 早期探索参考，当前版本机械模型与电子方案均为独立设计 |
 
 各子部件 README 中有详细的修改说明。
 

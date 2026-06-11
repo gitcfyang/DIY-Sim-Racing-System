@@ -1,7 +1,7 @@
 # 🦶 SimPedal — DIY 赛车模拟器踏板
 
 > 一套激光切割 + 3D 打印 + 霍尔传感器 + 压力传感器（load cell）的赛车模拟器踏板。  
-> 原始设计来自 **CNCDan**，经适配整合进本套方案。
+> 机械结构基于开源项目 [**dmcke5/SimPedals**](https://github.com/dmcke5/SimPedals)，经修改适配整合进本套方案。
 
 ![Sim Pedals](title.png "Sim Pedals")
 
@@ -214,6 +214,21 @@ SimPedal/
 ## 📺 视频教程
 
 原版制作视频：[https://youtu.be/44LWekyILmk](https://youtu.be/44LWekyILmk)
+
+---
+
+## 🙏 致谢与参考
+
+### 开源项目
+
+| 项目 | 用途 | 修改说明 |
+|---|---|---|
+| [dmcke5/SimPedals](https://github.com/dmcke5/SimPedals) | 踏板机械结构原始设计 | 固件从 Arduino 32u4 移植到 RP2040 CircuitPython；控制盒外壳重新设计；Load Cell 安装角度调整 |
+| [HX711 Arduino Library](https://github.com/bogde/HX711) | Load Cell 放大器驱动 | 原样使用 |
+
+### 视频参考
+
+- 原版制作教程：[https://youtu.be/44LWekyILmk](https://youtu.be/44LWekyILmk)
 
 ---
 

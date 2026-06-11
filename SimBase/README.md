@@ -186,6 +186,22 @@ SimBase/
 
 ---
 
+## 🙏 致谢与参考
+
+### 开源项目
+
+| 项目 | 用途 | 修改说明 |
+|---|---|---|
+| [FFBeast Wheel](https://github.com/ffbeast-dev/ffbeast-wheel) | 力反馈固件及配置工具 | 原样使用其 ODrive 固件（`.hex`）和 Qt6 配置工具；轮边外设配置根据 SimWheeling 方向盘做了适配调整 |
+| [ODrive](https://github.com/odriverobotics/ODrive) | 伺服电机 FOC 驱动平台 | 使用其硬件（v3.6）和基础驱动架构，FFBeast 在其上构建 FFB 协议层 |
+| [HIDAPI](https://github.com/libusb/hidapi) | USB HID 通信库 | FFBeast API 库依赖，原样使用 |
+
+### 说明
+
+SimBase 的机械结构（电机支架、底座、快拆转接等）为本项目原创设计，参照 Complete Assembly 中的 CATIA 模型。
+
+---
+
 ## 🔗 相关项目
 
 - [🦶 SimPedal — 踏板制作教程](../SimPedal/README.md)

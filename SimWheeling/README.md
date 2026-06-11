@@ -1,7 +1,7 @@
 # 🏎️ SimWheeling — DIY GT3 风格方向盘
 
 > 一个功能完整的 GT3 风格赛车模拟器方向盘：碳纤维面板、3D 打印握把包翻毛皮、12 个按钮、5 个旋钮编码器、磁吸换挡拨片。  
-> 主控：**树莓派 Pico（RP2040）** + **MCP23017** IO 扩展芯片，运行 **CircuitPython**。
+> 机械结构参考 [Thingiverse #5173143](https://www.thingiverse.com/thing:5173143)，主控方案改为 **树莓派 Pico（RP2040）** + **MCP23017** IO 扩展芯片，运行 **CircuitPython**。
 
 ![SimWheeling 渲染图](Render%203.png "GT3 方向盘渲染图")
 
@@ -303,6 +303,19 @@ Pico GP6~15    → 5× 旋转编码器（A/B 引脚）
 ![Render](Render%203.png)
 
 渲染图展示了完整装配的方向盘：碳纤维面板、包裹翻毛皮的握把、按钮标签和编码器旋钮。
+
+---
+
+## 🙏 致谢与参考
+
+### 开源项目
+
+| 项目 | 用途 | 修改说明 |
+|---|---|---|
+| [Thingiverse #5173143](https://www.thingiverse.com/thing:5173143) | 方向盘机械结构参考设计 | 主控从 Arduino 改为 RP2040（CircuitPython）；按钮矩阵改为 MCP23017 I²C 扩展方案；编码器从无增加到 5 个；拨片改为磁吸结构；贴纸重新设计为 Turn GTE 风格 |
+| [Adafruit MCP230xx Library](https://github.com/adafruit/Adafruit_MCP230xx_Arduino_Library) | MCP23017 驱动库 | 原样使用 |
+| [Adafruit Bus Device](https://github.com/adafruit/Adafruit_BusDevice) | I²C/SPI 总线抽象层 | 原样使用 |
+| [CircuitPython](https://circuitpython.org/) | RP2040 固件平台 | 原样使用 |
 
 ---
 

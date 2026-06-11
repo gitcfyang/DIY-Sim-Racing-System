@@ -51,10 +51,20 @@
 
 ---
 
-## 致谢
+## 致谢与参考
 
-踏板原始设计来自 **CNCDan**。方向盘与基座在此基础上扩展适配，构成本套完整方案。
+本项目的三个子部件在不同程度上参考或使用了以下开源项目：
+
+| 子部件 | 参考项目 | 关系 |
+|---|---|---|
+| **SimPedal** | [dmcke5/SimPedals](https://github.com/dmcke5/SimPedals) | 机械结构基于此项目，固件和部分外壳做了修改 |
+| **SimBase** | [FFBeast Wheel](https://github.com/ffbeast-dev/ffbeast-wheel) | 直接使用其 ODrive 力反馈固件和 Qt6 配置工具 |
+| **SimBase** | [ODrive](https://github.com/odriverobotics/ODrive) | 使用其硬件平台和底层驱动 |
+| **SimWheeling** | [Thingiverse #5173143](https://www.thingiverse.com/thing:5173143) | 机械结构参考此设计，主控方案和电路做了较大改动 |
+| **SimWheeling** | [Adafruit CircuitPython Libraries](https://github.com/adafruit) | 使用 MCP230xx 和 Bus Device 库 |
+
+各子部件 README 中有详细的修改说明。
 
 ## 许可证
 
-本项目为开源 DIY 方案。欢迎自制、改进、分享！🏁
+本项目为开源 DIY 方案。各参考项目的许可证条款请参见其原始仓库。欢迎自制、改进、分享！🏁
